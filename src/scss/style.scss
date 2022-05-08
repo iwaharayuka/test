@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+ul{
+  width: 100%;
+  list-style: none;
+  background-color: #999;
+  padding:50px;
+  display: flex;
+  justify-content: space-between;
+}
+li{
+  width: 30%;
+  height: 300px;
+  background-color: #fff;
+}
+
+// // ネストのテスト
+// section{
+//   h1{
+//     font-size: 4rem;
+//     text-align: center;
+//   }
+// }
+
+
+// // 変数のテスト
+// $mainColor: #3bb;
+// $subColor: #ccc;
+
+// ul{
+//   background-color: $mainColor;
+//   li{
+//     background-color: $subColor;
+//   }
+// }
