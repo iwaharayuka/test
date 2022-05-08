@@ -69,7 +69,7 @@ const browserSyncOption = {
   reloadOnRestart: true,
 }
 
-// 変更があったら、ブラウザをリロード
+// ブラウザをリロード
 const browserSyncReload = (done) => {
   browserSync.reload();
   done();
